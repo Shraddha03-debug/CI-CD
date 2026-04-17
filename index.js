@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('CI-CD Pipeline is working!');
+  res.end('New version is running!');
 });
 
 server.listen(PORT, () => {
